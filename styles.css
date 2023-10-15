@@ -63,7 +63,7 @@ li, a {
     font-weight: 700;
 }
 
-.cta > p , .cta > h2 {
+.cta > p , .cta > h2, button {
     color: #0A6EBD;
 }
 
