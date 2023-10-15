@@ -21,11 +21,13 @@ font-family: 'Caveat', cursive;
 html {
     height: 100%;
     font-family: 'Caveat', cursive;
+    overflow: hidden;
 }
 
 body {
     height: 100%;
     background: linear-gradient(#9AC5F4, #99DBF5, #A7ECEE, #FFEEBB) no-repeat;
+    overflow: scroll;
 }
 
 
@@ -126,6 +128,47 @@ button:hover {
     padding-right: 25%;
 }
 
+
+
+/* PROJECTS PAGE STYLES */
+
+.container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 3rem;
+} 
+
+.card {
+    
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.one > img {
+    width: 75%;
+}
+
+
+/* CONTACT ME STYLES */
+/* RESUME STYLES */
+
+
+/* Mobile Styles  */
+
 @media (max-width: 750px) {
     .about {
         flex-direction: column;
@@ -138,13 +181,14 @@ button:hover {
     }
 
     .about > article > p {
-        padding: 10%;
+        padding: 0 10%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        
     }
 }
-/* PROJECTS PAGE STYLES */
-/* CONTACT ME STYLES */
-/* RESUME STYLES */
-
-
-
-
