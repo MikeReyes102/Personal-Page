@@ -50,8 +50,23 @@ li, a {
     text-decoration: none;
 }
 
-/* CTA styles */
+/* button styles */
 
+button {
+    background: rgba(255,255,255,0);
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* CTA styles */
 
 .cta {
     padding: 10% 15%;
@@ -79,23 +94,12 @@ li, a {
     font-size: 2.5rem;
 }
 
-/* button styles */
-
-button {
-    background: rgba(255,255,255,0);
-    border: 2px solid;
-    border-radius: 5px;
-    padding: 3px;
-    font-size: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-button:hover {
-    font-size: large;
-    font-weight: bolder;
-}
-
 .cta > button {
     margin: 1rem auto
 }
+
+
+
+
+
 
