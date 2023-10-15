@@ -111,6 +111,7 @@ button:hover {
     gap: 10%;
     justify-content: space-between;
     margin: 10%;
+    color: #0A6EBD;
 }
 
 .about > img {
@@ -134,14 +135,14 @@ button:hover {
 
 .container {
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-bottom: 3rem;
 } 
 
 .card {
-    
+    color: #0A6EBD;
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -164,6 +165,46 @@ button:hover {
 
 
 /* CONTACT ME STYLES */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 60%;
+    margin: 5% auto;
+}
+
+label {
+    font-size: 1.5rem;
+    color: #0A6EBD;
+}
+
+input, textarea {
+    color: #0A6EBD;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FFEEBB;
+}
+
+input[type=submit] {
+    width: 100px;
+    align-self: center;
+    background: rgba(255,255,255,0);
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0A6EBD;
+}
+
+input[type=submit]:hover {
+    font-size: large;
+    font-weight: bolder;
+}
+
+
 /* RESUME STYLES */
 
 
