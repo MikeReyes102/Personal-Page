@@ -217,6 +217,13 @@ input[type=submit]:hover {
 /* Mobile Styles  */
 
 @media (max-width: 750px) {
+    .cta > h1 {
+        font-size: 2.5rem;
+    }
+    .cta > h2 {
+        font-size: 1.8rem;
+    }
+
     .about {
         flex-direction: column;
         gap: 2rem;
