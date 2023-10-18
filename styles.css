@@ -50,6 +50,7 @@ nav {
 nav > ul {
     display: flex;
     gap: 1rem;
+    margin-left: 5px;
     list-style-type: none;
 }
 
