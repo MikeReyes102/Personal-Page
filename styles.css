@@ -44,6 +44,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: auto 5% 1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px gray;
+
     
 }
 
@@ -66,9 +69,18 @@ button {
     background: #FFEEBB;
     border: 2px solid;
     border-radius: 5px;
-    padding: 3px;
     font-size: 1rem;
     font-family: 'Caveat', cursive;
+    box-shadow: 3px 3px 5px gray;
+
+}
+
+button > a {
+    padding: 3px 5px;
+}
+
+button > a:hover {
+    font-size: 1.3rem;
 }
 
 a:hover {
@@ -88,6 +100,7 @@ a:hover {
     color: #FFEEBB;
     font-size: 3.5rem;
     font-weight: 700;
+    text-shadow: 3px 3px 5px gray;
 }
 
 .cta > p , .cta > h2, button {
@@ -132,6 +145,8 @@ a:hover {
 }
 
 .about > article > h2 {
+    color: #FFEEBB;
+    text-shadow: 2px 2px 5px gray;
     font-size: 2.5rem;
 }
 
