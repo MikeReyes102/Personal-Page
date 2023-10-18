@@ -8,6 +8,7 @@
 
  /* fonts
 font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
  */
 
 /* GLOBAL STYLES */
@@ -20,7 +21,7 @@ font-family: 'Caveat', cursive;
 
 html {
     height: 100%;
-    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
 }
 
@@ -236,5 +237,9 @@ input[type=submit]:hover {
         align-items: center;
         gap: 0;
         
+    }
+
+    a:hover {
+        font-weight: normal;
     }
 }
