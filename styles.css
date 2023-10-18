@@ -15,11 +15,15 @@ font-family: 'Montserrat', sans-serif;
 
 /* Body Styles */
 * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 html {
+    -webkit-box-sizing: border-box;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
