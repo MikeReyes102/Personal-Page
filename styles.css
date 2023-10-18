@@ -211,8 +211,21 @@ input[type=submit]:hover {
 }
 
 
-/* RESUME STYLES */
+/* FOOTER STYLES */
+.social {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
 
+.social > a > img {
+    width: 20px;
+}
+
+.social > a:hover {
+    font-weight: normal;
+    font-size: 0;
+}
 
 /* Mobile Styles  */
 
