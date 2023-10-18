@@ -229,6 +229,7 @@ input[type=submit]:hover {
 
     .about > article > p {
         padding: 0 10%;
+        font-size: 1.2rem;
     }
 
     .container {
